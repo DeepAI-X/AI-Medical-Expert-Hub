@@ -1,261 +1,97 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Medical Expert Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Medical Expert Hub</h1>
+        <p>Advancing medical research with AI-driven technologies</p>
+    </header>
 
-    <title>Yichao Cao</title>
+    <section>
+        <h2>Project Participants</h2>
+        <p>
+            This project is led by a team of researchers and developers with expertise in AI, healthcare, and medical research:
+            <ul>
+                <li><b>Dr. Yichao Cao</b>: Principal Investigator</li>
+                <li><b>Lei Liu</b>: Research Collaborator</li>
+                <li><b>Team Members:</b> [Add additional names here]</li>
+            </ul>
+        </p>
+    </section>
 
-    <meta name="author" content="Yichao Cao">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-  </head>
+    <section>
+        <h2>Research Objectives</h2>
+        <p>The primary goal of the AI Medical Expert Hub project is to leverage AI and multimodal technologies to build an intelligent medical expert system. Specific objectives include:</p>
+        <ul>
+            <li>Developing an AI-powered diagnostic support system.</li>
+            <li>Enhancing decision-making through multimodal data integration.</li>
+            <li>Improving healthcare outcomes using intelligent recommendations.</li>
+        </ul>
+    </section>
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Yichao Cao
-                </p>
-                <p>I am a Ph.D. candidate at Southeast University, under the supervision of Professor Xiaobo Lu. My research interests lie in the fields of computer vision and artificial intelligence</a>.
-                </p>
-                <p>
-                  In recent years, I have also served as the Manager of the Algorithm Department at Enbo Technology Co., Ltd. in Nanjing, where I am responsible for the research and development of algorithmic products for forest fire video monitoring systems. Recently, we developed the first multimodal large model in the forestry domain, named "ForestMind". Through this single model, we can accomplish a diverse range of tasks in smart forestry</a>.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:caoyichao@seu.edu.cn">Email</a> &nbsp;/&nbsp;
-                  <a href="data/yichaocao-CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=--8h8o0AAAAJ&hl=zh-CN&oi=ao">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/Caoyichao/">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/YichaoCao.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/YichaoCao.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  My research interests include, but are not limited to: (1) Human-Object Interaction Detection; (2) Fine-tuning and applications of multimodal large models; (3) Embodied intelligence. Most of my research is about these fields. Additionally, I am passionate about and eager to explore other emerging fields. Some papers are <span class="highlight">highlighted</span>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <section>
+        <h2>Current Progress</h2>
+        <p>We have achieved the following milestones so far:</p>
+        <ul>
+            <li>Completed the design of the multimodal integration framework.</li>
+            <li>Implemented a prototype for disease-specific diagnostic support.</li>
+            <li>Developed initial data pipelines for processing multimodal medical data.</li>
+        </ul>
+    </section>
 
-          <!-- UniHOI -->
-          <tr>
-            <td class="tdimg" style="padding:20px;width:35%;vertical-align:center">
-              <img src='images/UniHOI.png'>
-            </td>
-            <td class="tdcontent" style="padding:20px;width:65%;vertical-align:center", bgcolor="#ffffd0">
-              <p>
-                <a href="https://arxiv.org/pdf/2311.03799">
-                  <papertitle>Detecting any human-object interaction relationship: Universal HOI detector with spatial prompt learning on foundation models</papertitle>
-                </a>
-                <br>
-                <strong>Yichao Cao</strong>, Qingfei Tang, Xiu Su, Song Chen, Shan You, Xiaobo Lu, Chang Xu
-                <br>
-                <em>NeurIPS</em>, 2023
-                <br>
-              </p>
-              <div class="paper" id="bai2022masked">
-                <a href="https://arxiv.org/pdf/2311.03799">paper</a> 
-              </div>
-            </td>
-          </tr>
+    <section>
+        <h2>Demo Showcase</h2>
+        <p>Explore our progress through interactive demos:</p>
+        <ul>
+            <li><a href="#">Demo 1: Multimodal Diagnostic Assistant</a></li>
+            <li><a href="#">Demo 2: AI-Driven Medical Knowledge Retrieval</a></li>
+        </ul>
+    </section>
 
- 
-          <!-- RmLR -->
-          <tr>
-            <td class="tdimg" style="padding:20px;width:35%;vertical-align:center">
-              <img src='images/RmLR.png'>
-            </td>
-            <td class="tdcontent" style="padding:20px;width:65%;vertical-align:center", bgcolor="#ffffd0">
-              <p>
-                <a href="https://arxiv.org/pdf/2307.13529">
-                  <papertitle>Re-mine, learn and reason: Exploring the cross-modal semantic correlations for language-guided hoi detection</papertitle>
-                </a>
-                <br>
-                <strong>Yichao Cao</strong>, Qingfei Tang, Feng Yang, Xiu Su, Shan You, Xiaobo Lu, Chang Xu
-                <br>
-                <em>ICCV</em>, 2023
-                <br>
-              </p>
-              <div class="paper" id="bai2022masked">
-                <a href="https://arxiv.org/pdf/2307.13529">paper</a> 
-              </div>
-            </td>
-          </tr>
+    <section>
+        <h2>Future Work</h2>
+        <p>Our future plans include:</p>
+        <ul>
+            <li>Scaling the system to support additional medical domains.</li>
+            <li>Improving model accuracy and robustness through further training.</li>
+            <li>Collaborating with healthcare providers for real-world validation.</li>
+        </ul>
+    </section>
 
- 
-          <!-- ACM MM -->
-          <tr>
-            <td class="tdimg" style="padding:20px;width:35%;vertical-align:center">
-              <img src='images/UniFreqSDG.png'>
-            </td>
-            <td class="tdcontent" style="padding:20px;width:65%;vertical-align:center">
-              <p>
-                <a href="https://openreview.net/forum?id=UQuuFPeKb2&referrer=%5Bthe%20profile%20of%20Xiu%20Su%5D(%2Fprofile%3Fid%3D~Xiu_Su1)">
-                  <papertitle>Universal Frequency Domain Perturbation for Single-Source Domain Generalization</papertitle>
-                </a>
-                <br>
-                Chuang Liu<sup>*</sup>, <strong>Yichao Cao<sup>*</sup></strong>, Haogang Zhu, Xiu Su (Equal contribution)
-                <br>
-                <em>ACM MM</em>, 2024
-                <br>
-              </p>
-              <div class="paper" id="bai2022masked">
-                <a href="https://openreview.net/forum?id=UQuuFPeKb2&referrer=%5Bthe%20profile%20of%20Xiu%20Su%5D(%2Fprofile%3Fid%3D~Xiu_Su1)">paper</a> 
-              </div>
-            </td>
-          </tr>
-
-
- 
-          <!-- NIPS searching -->
-          <tr>
-            <td class="tdimg" style="padding:20px;width:35%;vertical-align:center">
-              <img src='images/NIPS-NAS.png'>
-            </td>
-            <td class="tdcontent" style="padding:20px;width:65%;vertical-align:center", bgcolor="#ffffd0">
-              <p>
-                <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/8693ee1ea821666f8569228d1ab38baf-Paper-Conference.pdf">
-                  <papertitle>Searching for better spatio-temporal alignment in few-shot action recognition</papertitle>
-                </a>
-                <br>
-                <strong>Yichao Cao</strong>, Xiu Su, Qingfei Tang, Shan You, Xiaobo Lu, Chang Xu
-                <br>
-                <em>NeurIPS</em>, 2022
-                <br>
-              </p>
-              <div class="paper" id="bai2022masked">
-                <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/8693ee1ea821666f8569228d1ab38baf-Paper-Conference.pdf">paper</a> 
-              </div>
-            </td>
-          </tr>
-
-
- 
-          <!-- Coarse2fine -->
-          <tr>
-            <td class="tdimg" style="padding:20px;width:35%;vertical-align:center">
-              <img src='images/Coarse2Fine.png'>
-            </td>
-            <td class="tdcontent" style="padding:20px;width:65%;vertical-align:center">
-              <p>
-                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25292">
-                  <papertitle>Coarse2fine: local consistency aware re-prediction for weakly supervised object localization</papertitle>
-                </a>
-                <br>
-                Yixuan Pan, Yao Yao, <strong>Yichao Cao</strong>, Chongjin Chen, Xiaobo Lu (<strong>Oral</strong>)
-                <br>
-                <em>AAAI</em>, 2023
-                <br>
-              </p>
-              <div class="paper" id="bai2022masked">
-                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25292">paper</a> 
-              </div>
-            </td>
-          </tr>
-
- 
-  
- 
-          <!-- Luxin MM -->
-          <tr>
-            <td class="tdimg" style="padding:20px;width:35%;vertical-align:center">
-              <img src='images/AGMH.png'>
-            </td>
-            <td class="tdcontent" style="padding:20px;width:65%;vertical-align:center">
-              <p>
-                <a href="https://arxiv.org/abs/2311.06067">
-                  <papertitle>Attributes grouping and mining hashing for fine-grained image retrieval</papertitle>
-                </a>
-                <br>
-                Xin Lu, Shikun Chen, <strong>Yichao Cao</strong>, Xin Zhou, Xiaobo Lu
-                <br>
-                <em>ACM MM</em>, 2023
-                <br>
-              </p>
-              <div class="paper" id="bai2022masked">
-                <a href="https://arxiv.org/abs/2311.06067">paper</a> 
-              </div>
-            </td>
-          </tr>
-
-   
- 
-          <!-- EFFNet -->
-          <tr>
-            <td class="tdimg" style="padding:20px;width:35%;vertical-align:center">
-              <img src='images/EFFNet.png'>
-            </td>
-            <td class="tdcontent" style="padding:20px;width:65%;vertical-align:center", bgcolor="#ffffd0">
-              <p>
-                <a href="https://ieeexplore.ieee.org/document/9439463/">
-                  <papertitle>EFFNet: Enhanced feature foreground network for video smoke source prediction and detection</papertitle>
-                </a>
-                <br>
-                <strong>Yichao Cao</strong>, Qingfei Tang, Xuehui Wu, Xiaobo Lu
-                <br>
-                <em>IEEE TCSVT</em>, 2021
-                <br>
-              </p>
-              <div class="paper" id="bai2022masked">
-                <a href="https://ieeexplore.ieee.org/document/9439463/">paper</a> 
-              </div>
-            </td>
-          </tr>
-
-  
- 
-          <!-- Shikun Global2Salient -->
-          <tr>
-            <td class="tdimg" style="padding:20px;width:35%;vertical-align:center">
-              <img src='images/Global2Salient.png'>
-            </td>
-            <td class="tdcontent" style="padding:20px;width:65%;vertical-align:center">
-              <p>
-                <a href="https://www.sciencedirect.com/science/article/pii/S0925231221013849">
-                  <papertitle>Global2Salient: Self-adaptive feature aggregation for remote sensing smoke detection</papertitle>
-                </a>
-                <br>
-                Shikun Chen, <strong>Yichao Cao</strong>, Xiaoqiang Feng, Xiaobo Lu
-                <br>
-                <em>Neurocomputing</em>, 2021
-                <br>
-              </p>
-              <div class="paper" id="bai2022masked">
-                <a href="https://www.sciencedirect.com/science/article/pii/S0925231221013849">paper</a> 
-              </div>
-            </td>
-          </tr>
-
-
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:center;font-size:small;">
-                  Stolen from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>. Big thanks!
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
-  </body>
+    <footer>
+        <p>© 2024 AI Medical Expert Hub. All rights reserved.</p>
+    </footer>
+</body>
 </html>
