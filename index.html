@@ -6,10 +6,11 @@
     <title>AI Medical Expert Hub</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica', sans-serif;
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            font-size:23px;
         }
         header {
             background: #4CAF50;
@@ -22,6 +23,7 @@
             margin: 10px;
         }
         h2 {
+            font-size:28px;
             color: #4CAF50;
         }
         footer {
@@ -30,6 +32,12 @@
             text-align: center;
             padding: 10px;
             margin-top: 20px;
+        }
+        figcaption {
+            font-size: 16px;
+            color: #555;
+            text-align: center;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -51,7 +59,10 @@
     </section>
     <section>
         <h2>Research Objectives</h2>
-        <img src="framework.png" alt="AAA PDF as Image" style="width:60%; height:auto;" />
+        <figure style="text-align: center;">
+            <img src="framework.png" alt="figure 1" style="width:90%; height:auto;">
+            <figcaption>Figure 1 : AI medical expert model framework </figcaption>
+        </figure>
         <p>The primary goal of the AI Medical Expert Hub project is to leverage AI and multimodal technologies to build an intelligent medical expert system. Specific objectives include:</p>
         <ul>
             <li>Developing an AI-powered diagnostic support system.</li>
@@ -71,6 +82,16 @@
     <section>
         <h2>Demo Showcase</h2>
         <p>Explore our progress through interactive demos:</p>
+        <div style="display: flex; justify-content: center; gap: 20px;">
+            <figure style="text-align: center;">
+                <img src="MMG.png" alt="figure 2" style="width:100%; height:auto;">
+                <figcaption>Figure 2: Muti-modal Generation</figcaption>
+            </figure>
+            <figure style="text-align: center;">
+                <img src="MRD.png" alt="figure 3" style="width:100%; height:auto;">
+                <figcaption>Figure 3: Multiple rounds of dialogue</figcaption>
+            </figure>
+        </div>
         <ul>
             <li><a href="#">Demo 1: Multimodal Diagnostic Assistant</a></li>
             <li><a href="#">Demo 2: AI-Driven Medical Knowledge Retrieval</a></li>
