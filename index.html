@@ -39,14 +39,35 @@
             text-align: center;
             margin-top: 10px;
         }
+
+        .button-group a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #fff;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 14px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button-group a:hover {
+            background-color: white;
+            color: #3a8dff;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>AI Medical Expert Hub (AIME-Hub)</h1>
         <p>Advancing medical research with AI-driven technologies</p>
-        <a href="index_chinese.html" id="switch-to-chinese">中文</a>
-
+        <div class="button-group">
+            <a href="https://github.com/richard-peng-xia/RULE">paper</a>
+            <a href="#">code</a>
+            <a href="#">slides</a>
+            <a href="#">poster</a>
+            <a href="index_chinese.html" id="switch-to-chinese">Chinese</a>
+        </div>
     </header>
     <section>
         <h2>Project Participants</h2>
