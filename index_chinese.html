@@ -39,14 +39,34 @@
             text-align: center;
             margin-top: 10px;
         }
+        .button-group a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #fff;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 14px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button-group a:hover {
+            background-color: white;
+            color: #3a8dff;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>AI Medical Expert Hub (AIME-Hub)</h1>
         <p>利用人工智能技术推进医学研究</p>
-        <a href="index.html" id="switch-to-english">English</a>
-
+        <div class="button-group">
+            <a href="https://github.com/richard-peng-xia/RULE">论文</a>
+            <a href="#">代码</a>
+            <a href="#">幻灯片</a>
+            <a href="#">标语</a>
+            <a href="index.html" id="switch-to-english">英文</a>
+        </div>
     </header>
     <section>
         <h2>项目参与人员</h2>
